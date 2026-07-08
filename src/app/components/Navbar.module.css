@@ -1,0 +1,133 @@
+.navbar {
+  background-color: rgba(45, 27, 78, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #F4F0F8;
+  text-decoration: none;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(184, 84, 255, 0.3);
+  border-radius: 20px;
+  padding: 0.25rem 1rem;
+  width: 400px;
+  max-width: 50%;
+  transition: border-color 0.3s;
+}
+
+.searchContainer:focus-within {
+  border-color: #FF7A59;
+}
+
+.searchInput {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  color: #F4F0F8;
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: rgba(244, 240, 248, 0.5);
+}
+
+.searchButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.searchButton:hover {
+  transform: scale(1.1);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navLink {
+  color: #F4F0F8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: #FF7A59;
+}
+
+.iconButton, .cartButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.iconButton:hover, .cartButton:hover {
+  transform: scale(1.1);
+}
+
+.cartButton {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FF7A59;
+  color: #1A0B2E;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(25%, -25%);
+}
