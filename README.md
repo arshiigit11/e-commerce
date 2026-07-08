@@ -19,6 +19,3 @@ A modern, full-stack e-commerce platform built with Next.js, React, NextAuth.js,
 - **State Management:** Zustand
 
 
-## Database Seeding
-To populate the database with initial sample products, visit:
-`http://localhost:3000/api/seed` in your browser once the server is running.
