@@ -1,5 +1,6 @@
 # LUMIÈRE E-Commerce Platform
-https://e-commerce-one-azure-50.vercel.app
+  Live link : https://e-commerce-one-azure-50.vercel.app
+
 A modern, full-stack e-commerce platform built with Next.js, React, NextAuth.js, and MongoDB. Featuring a beautiful "glassmorphism" UI design.
 
 ## Features
